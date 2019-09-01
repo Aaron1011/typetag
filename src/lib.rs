@@ -109,6 +109,7 @@
 //! trait WebEvent {
 //!     fn inspect(&self);
 //! }
+//! fn main() {}
 //! ```
 //!
 //! Then stick a similar attribute on all those impl blocks too.
@@ -143,6 +144,7 @@
 //!         println!("negative space between the ads: x={} y={}", self.x, self.y);
 //!     }
 //! }
+//! fn main() {}
 //! ```
 //!
 //! And now it works as described. All in all, three lines were added!
@@ -173,6 +175,7 @@
 //! trait WebEvent {
 //!     fn inspect(&self);
 //! }
+//! fn main() {}
 //! ```
 //!
 //! ```json
@@ -187,6 +190,7 @@
 //! trait WebEvent {
 //!     fn inspect(&self);
 //! }
+//! fn main() {}
 //! ```
 //!
 //! ```json
@@ -218,6 +222,7 @@
 //!         println!("negative space between the ads: ({}, {})", self.x, self.y);
 //!     }
 //! }
+//! fn main() {}
 //! ```
 //!
 //! ```json
